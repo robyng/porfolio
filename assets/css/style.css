@@ -11,10 +11,6 @@
     width: 100%;
 }
 
-.about img {
-    border-radius: 50%;
-    border: 2px solid black;
-}
 header {
     padding: 20px;
     display: flex;
@@ -45,4 +41,69 @@ header h1 a {
 header h1 a:hover {
     color: white;
     background-color: black;
+}
+
+/*About Me */
+
+.about {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about img {
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+/*test.html css*/
+.section-box {
+    text-align: center;
+
+
+}
+
+.project-img {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.project-img img {
+    width: 960px;
+    height: 540px;
+    object-fit: cover;
+    object-position: bottom;
+    margin: 0;
+    display: block;
+}
+
+.sub-img {
+    display: flex;
+}
+
+.sub-img img {
+    width: 480px;
+    height: 270px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/*Projects*/
+
+.projects {
+    border: 1px solid black;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 70%;
+    padding: 20px;
+
 }
