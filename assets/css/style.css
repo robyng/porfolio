@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.hero {
+    background-image: url("../images/cloud-rays.jpg");
+    background-size: cover;
+    background-position: 80%;
+    padding: 100px;
+    width: 100%;
+}
+
+.about img {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header h1 a {
+    color: #30326f;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid lightblue;
+    background-image: linear-gradient(to right, rgba(137, 196, 244, 1), rgba(44, 130, 201, .2));
+    padding: 20px;
+}
+
+header h1 a:hover {
+    color: white;
+    background-color: black;
+}
