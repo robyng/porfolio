@@ -11,10 +11,6 @@
     padding: 100px;
 }
 
-.hero p {
-    display: none;
-}
-
 header {
     padding: 20px;
     display: flex;
@@ -49,23 +45,38 @@ header h1 a:hover {
 
 /*About Me */
 
+.profile {
+    display: flex;
+}
+
 .about {
-    width: 300px;
+    width: 960px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.about p {
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 20px;
+.about h2 {
+    padding-bottom: 10px;
 }
-
 .about img {
     border-radius: 50%;
     width: 300px;
     height: 300px;
     padding: 20px 0;
+}
+
+p {
+    display: inline-block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.about-disc {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-content: center;
 }
 
 /*test.html css*/
