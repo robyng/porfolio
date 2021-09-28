@@ -1,0 +1,38 @@
+header {
+    background-color: cornsilk;
+    overflow: hidden;
+    padding: 10px;
+}
+
+header a {
+    float: left;
+    padding: 20px;
+}
+nav {
+    float: right;
+}
+
+/*styles for tablets*/
+
+@media screen and (max-width: 992px) {
+    header a {
+        display: block;
+        float: none;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+
+    }
+}
+
+/* Styles for Mobile */
+
+@media screen and (max-width: 688px) {
+    header a {
+        padding: 5px;
+    }
+}
