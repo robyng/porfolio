@@ -8,13 +8,25 @@ body {
 }
 
 header {
-    background-color: cornsilk;
     overflow: hidden;
     padding: 10px;
-    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.hero {
+    background-image: url("../images/cloud-rays.jpg");
+    padding: 100px;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+
+.hero h2 {
+    text-align: center;
+    background-color: transparent;
 }
 
 .section-box img {
@@ -26,7 +38,6 @@ header a {
     float: left;
     padding: 20px;
     text-decoration: none;
-    background-color: cornsilk;
     color: black;
 }
 nav {
@@ -39,6 +50,20 @@ nav {
 .section-box {
     width: 40%;
     margin: 0 auto;
+}
+
+
+/*psuedo styles*/
+header h1 a:hover {
+    background-color: blueviolet;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: blue;
 }
 
 /*styles for tablets*/
