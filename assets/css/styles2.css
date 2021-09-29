@@ -2,6 +2,12 @@ header {
     background-color: cornsilk;
     overflow: hidden;
     padding: 10px;
+    margin-bottom: 20px;
+}
+
+.section-box img {
+    border-radius: 50%;
+    width: 100%;
 }
 
 header a {
@@ -10,6 +16,13 @@ header a {
 }
 nav {
     float: right;
+}
+
+/*body*/
+
+.section-box {
+    width: 40%;
+    margin: 0 auto;
 }
 
 /*styles for tablets*/
@@ -27,6 +40,11 @@ nav {
         text-align: center;
 
     }
+
+    .section-box {
+        width: 60%;
+        margin: 0 auto;
+    }
 }
 
 /* Styles for Mobile */
@@ -34,5 +52,10 @@ nav {
 @media screen and (max-width: 688px) {
     header a {
         padding: 5px;
+    }
+
+    .section-box {
+        width: 90%;
+        margin: 0 auto;
     }
 }
