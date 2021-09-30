@@ -1,0 +1,33 @@
+body {
+    background-color: gainsboro;
+}
+
+.work-box  {
+    width: 60%;
+    margin: 0 auto;
+    
+
+}
+
+.project {
+    padding: 10px 10px 40px 10px;
+    background: white;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.work-box img  {
+    width: 100%;
+    height:400px;
+    object-fit: cover;
+}
+
+.sub-projects {
+    display: flex;
+}
+
+.sub-projects .project {
+    width: 50%;
+
+}
+
