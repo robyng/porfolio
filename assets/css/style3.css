@@ -10,11 +10,98 @@ body {
     background-color: gainsboro;
 }
 
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* Header and Hero */
+
+header {
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.hero {
+    background-image: url("../images/cloud-rays.jpg");
+    padding: 100px;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+
+.hero h2 {
+    text-align: center;
+    background-color: transparent;
+}
+
+header a {
+    float: left;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+nav {
+    float: right;
+    font-size: 24px;
+}
+
+/*About Me */
+
+.profile {
+    display: flex;
+}
+
+.about {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about h3 {
+    padding-bottom: 10px;
+}
+.about img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    padding: 20px 0;
+}
+
+p {
+    display: inline-block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.about-disc {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-content: center;
+}
+
+
+
+/* My Work Section */
+
 .work-box  {
     width: 75%;
     margin: 0 auto;
     
 
+}
+
+.work-box h3 {
+    margin: 10px;
 }
 
 .project {
@@ -60,20 +147,86 @@ h4 {
     padding: 20px;
 }
 
-.contact h3 {
-    font-size: 38px;
-}
-
-
 
 /* footer */
 footer {
-    background-color: rgb(209, 223, 219);
+    background-color: rgb(255, 255, 255);
     border-top: 1px solid black;
     margin-top: 20px;
     padding: 10px;
 }
 
 footer p {
-    background-color:  rgb(209, 223, 219);
+    background-color:  rgb(255, 255, 255);
+}
+
+/*styles for tablets*/
+
+@media screen and (max-width: 992px) {
+    header {
+        display: block;
+    }
+    
+    header a {
+        display: block;
+        float: none;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+
+    }
+
+    .about {
+        width: 75%;
+    }
+
+    .about img {
+        height: auto;
+        display: flex;
+        justify-self: center;
+
+    }
+
+    .profile {
+        display: block;
+    }
+
+    .profile img {
+        height: auto;
+        margin: 0 auto;
+    }
+
+}
+
+/* Styles for Mobile */
+
+@media screen and (max-width: 688px) {
+    header a {
+        padding: 5px;
+    }
+
+    .profile {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .work-box {
+        width: 90%;
+    }
+
+
+    .project {
+        width: 100%;
+    }
+    .sub-projects {
+        display: block;
+    }
+    .sub-projects .project {
+        width: 100%;
+    
+    }
 }
