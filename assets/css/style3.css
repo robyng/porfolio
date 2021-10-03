@@ -131,7 +131,7 @@ p {
     padding: 10px 10px 40px 10px;
     background: white;
     border: 1px solid black;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .sub-projects {
