@@ -1,11 +1,11 @@
 # Porfolio
 
 ## Description
-This is my coding portfolio. It will have placeholder images and descriptions for now. To hold my examples of my codding work. 
+This is my coding portfolio. It will have placeholder images and descriptions for now until I have more examples of my coding work. 
 
 ## Links
 deployed at 
-https://robyng.github.io/porfolio/
+https://robyng.github.io/portfolio/
 
 code source at
 https://github.com/robyng/portfolio 

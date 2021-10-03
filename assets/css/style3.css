@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     background-color: gainsboro;
 }
@@ -34,7 +32,6 @@ header {
     padding: 100px;
     background-size: cover;
     margin-bottom: 20px;
-
 }
 
 .hero h2 {
@@ -59,7 +56,7 @@ nav {
     font-weight: bold;
 }
 
-/*About Me */
+/* About Section */
 
 .profile {
     display: flex;
@@ -88,14 +85,13 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 .about-disc {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
     align-content: center;
 }
-
-
 
 /* My Work Section */
 
@@ -131,7 +127,7 @@ p {
     padding: 10px 10px 40px 10px;
     background: white;
     border: 1px solid black;
-    margin: 10px 0;
+    margin: 10px;
 }
 
 .sub-projects {
@@ -157,6 +153,7 @@ h4 {
 }
 
 /* Contact */
+
 .contact {
     width: 75%;
     margin: 20px auto;
@@ -172,8 +169,8 @@ h4 {
     font-size: 18px;
 }
 
-
 /* footer */
+
 footer {
     background-color: rgb(255, 255, 255);
     border-top: 1px solid black;
@@ -186,7 +183,7 @@ footer p {
 }
 
 
-/*styles for tablets*/
+/* styles for tablets */
 
 @media screen and (max-width: 992px) {
     header {
@@ -247,13 +244,15 @@ footer p {
 
     .project {
         width: 100%;
+        margin: 10px 0;
     }
+
     .sub-projects {
         display: block;
     }
+
     .sub-projects .project {
         width: 100%;
-    
     }
 
     .contact {
