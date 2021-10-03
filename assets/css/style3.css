@@ -48,9 +48,15 @@ header a {
     text-decoration: none;
     color: black;
 }
+
+header a:hover {
+    color:rgb(87, 63, 175);
+}
+
 nav {
     float: right;
     font-size: 24px;
+    font-weight: bold;
 }
 
 /*About Me */
@@ -96,19 +102,14 @@ p {
 .work-box  {
     width: 75%;
     margin: 0 auto;
-    
-
 }
 
+.work-box a {
+    text-decoration: none;
+    color: black;
+}
 .work-box h3 {
-    margin: 10px;
-}
-
-.project {
-    padding: 10px 10px 40px 10px;
-    background: white;
-    border: 1px solid black;
-    margin: 10px;
+    padding: 20px;
 }
 
 .work-box img  {
@@ -116,6 +117,21 @@ p {
     height:480px;
     object-fit: cover;
     object-position: center;
+}
+
+.work-box img:hover {
+    opacity: .5;
+}
+
+.work-box a:hover {
+    color: rgb(87, 63, 175);
+}
+
+.project {
+    padding: 10px 10px 40px 10px;
+    background: white;
+    border: 1px solid black;
+    margin: 10px;
 }
 
 .sub-projects {
@@ -147,6 +163,15 @@ h4 {
     padding: 20px;
 }
 
+.contact h3 {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin: 20px 20px 20px 0;
+    font-size: 18px;
+}
+
 
 /* footer */
 footer {
@@ -159,6 +184,7 @@ footer {
 footer p {
     background-color:  rgb(255, 255, 255);
 }
+
 
 /*styles for tablets*/
 
@@ -209,7 +235,7 @@ footer p {
         padding: 5px;
     }
 
-    .profile {
+    .about {
         width: 90%;
         margin: 0 auto;
     }
@@ -228,5 +254,9 @@ footer p {
     .sub-projects .project {
         width: 100%;
     
+    }
+
+    .contact {
+        width: 90%;
     }
 }
