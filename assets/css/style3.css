@@ -144,12 +144,16 @@ p {
 
 }
 
-h4 {
+.title {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Permanent Marker', cursive;
     font-size: 32px;
     margin: 10px 0;
+}
+
+.center {
+    text-align: center;
 }
 
 /* Contact */
